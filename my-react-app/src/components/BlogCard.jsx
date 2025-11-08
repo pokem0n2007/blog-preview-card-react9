@@ -1,6 +1,6 @@
 // ...existing code...
 import '../Card.css'
-export default function BlogCard({ image, category, title, description, author }) {
+export default function BlogCard() {
   return (
     <article className="blog-card">
  <div class="card">

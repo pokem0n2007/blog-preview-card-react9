@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9d98d; /* фон як на макеті */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Картка */
+.card {
+  background: #fff;
+  max-width: 350px;
+  border-radius: 16px;
+  box-shadow: 6px 6px 0px #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Зображення */
+.card__image {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Контент */
+.card__content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+  text-align: start;
+}
+
+/* Тег */
+.card__tag {
+  display: inline-block;
+  background: #f4ce73;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Дата */
+.card__date {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Заголовок */
+.card__title {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Текст */
+.card__text {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* Автор */
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.author__img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.author__name {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+}
